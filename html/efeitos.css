@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+body {
+  background: linear-gradient(to right, #2a2b2c, #e2e5e7);
+}
+
+header {
+  background-color: #222;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  
+}
+
+nav {
+  background-color: #444;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #ffffff;
+  font-size: 19px;
+}
+
+.container {
+     flex: 1;
+  max-width: 900px;
+  margin: 30px auto;
+  background: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.foto-perfil {
+    
+    width: 250px;
+    height: 230px;
+    border-radius: 20%;
+    object-fit: cover;
+    margin-left:620px;
+     display:
+      transition: 0.3s;
+}
+
+.foto-perfil:hover {
+  transform: scale(1.05);
+}
+     
+h2 {
+  color: #333;
+}
+
+p {
+  color: #555;
+  line-height: 1.6;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#mensagem {
+  margin-top: 15px;
+  font-weight: bold;
+  color: green;
+}
+
+footer {
+  text-align: center;
+  background-color: #222;
+  color: white;
+  padding: 15px;
+  margin-top: auto;
+}
